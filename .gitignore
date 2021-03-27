@@ -1,0 +1,9 @@
+Debug
+/.vs/JsonViewer/v16/*.suo
+/.vs/JsonViewer/v16/Server/sqlite3/*.lock
+/.vs/JsonViewer/v16/Server/sqlite3/*.ide
+/.vs/JsonViewer/v16/TestStore/0/*.testlog
+/.vs/JsonViewer/v16/TestStore/0/*.manifest
+/JsonViewer/obj/Release
+/packages/Newtonsoft.Json.12.0.3
+/JsonViewer/bin/Release
