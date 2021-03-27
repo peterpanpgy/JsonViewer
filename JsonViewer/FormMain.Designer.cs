@@ -62,10 +62,10 @@
             this.refreshToolStripMenuItem,
             this.optionToolStripMenuItem});
             this.menuMain.Location = new System.Drawing.Point(0, 0);
-            this.menuMain.Margin = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.menuMain.Margin = new System.Windows.Forms.Padding(20);
             this.menuMain.Name = "menuMain";
             this.menuMain.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
-            this.menuMain.Size = new System.Drawing.Size(1122, 70);
+            this.menuMain.Size = new System.Drawing.Size(1122, 55);
             this.menuMain.TabIndex = 0;
             this.menuMain.Text = "Main Menu";
             // 
@@ -75,7 +75,7 @@
             this.openJsonFileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.openJsonFileToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10);
             this.openJsonFileToolStripMenuItem.Name = "openJsonFileToolStripMenuItem";
-            this.openJsonFileToolStripMenuItem.Size = new System.Drawing.Size(235, 44);
+            this.openJsonFileToolStripMenuItem.Size = new System.Drawing.Size(158, 29);
             this.openJsonFileToolStripMenuItem.Text = "Open Json File...";
             this.openJsonFileToolStripMenuItem.Click += new System.EventHandler(this.openJsonFileToolStripMenuItem_Click);
             // 
@@ -85,7 +85,7 @@
             this.refreshToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.refreshToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10);
             this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
-            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(134, 44);
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(91, 29);
             this.refreshToolStripMenuItem.Text = "Refresh!";
             this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
@@ -95,14 +95,14 @@
             this.optionToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.optionToolStripMenuItem.Margin = new System.Windows.Forms.Padding(10);
             this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
-            this.optionToolStripMenuItem.Size = new System.Drawing.Size(162, 44);
+            this.optionToolStripMenuItem.Size = new System.Drawing.Size(110, 29);
             this.optionToolStripMenuItem.Text = "Columns...";
             this.optionToolStripMenuItem.Click += new System.EventHandler(this.optionToolStripMenuItem_Click);
             // 
             // splitContainerMain
             // 
             this.splitContainerMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerMain.Location = new System.Drawing.Point(0, 70);
+            this.splitContainerMain.Location = new System.Drawing.Point(0, 55);
             this.splitContainerMain.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.splitContainerMain.Name = "splitContainerMain";
             // 
@@ -114,7 +114,7 @@
             // splitContainerMain.Panel2
             // 
             this.splitContainerMain.Panel2.Controls.Add(this.dataGridView);
-            this.splitContainerMain.Size = new System.Drawing.Size(1122, 762);
+            this.splitContainerMain.Size = new System.Drawing.Size(1122, 777);
             this.splitContainerMain.SplitterDistance = 262;
             this.splitContainerMain.SplitterWidth = 10;
             this.splitContainerMain.TabIndex = 1;
@@ -134,7 +134,7 @@
             this.treeView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.treeView.Name = "treeView";
             this.treeView.SelectedImageIndex = 0;
-            this.treeView.Size = new System.Drawing.Size(262, 762);
+            this.treeView.Size = new System.Drawing.Size(262, 777);
             this.treeView.StateImageList = this.imageListTreeView;
             this.treeView.TabIndex = 0;
             this.treeView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_AfterSelect);
@@ -171,7 +171,7 @@
             this.dataGridView.ReadOnly = true;
             this.dataGridView.RowHeadersWidth = 62;
             this.dataGridView.RowTemplate.Height = 23;
-            this.dataGridView.Size = new System.Drawing.Size(850, 762);
+            this.dataGridView.Size = new System.Drawing.Size(850, 777);
             this.dataGridView.TabIndex = 0;
             // 
             // chkGlobalPoint
@@ -185,7 +185,7 @@
             this.chkGlobalPoint.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.chkGlobalPoint.Location = new System.Drawing.Point(427, 10);
             this.chkGlobalPoint.Name = "chkGlobalPoint";
-            this.chkGlobalPoint.Size = new System.Drawing.Size(195, 50);
+            this.chkGlobalPoint.Size = new System.Drawing.Size(133, 35);
             this.chkGlobalPoint.TabIndex = 2;
             this.chkGlobalPoint.Text = "Global Points";
             this.chkGlobalPoint.UseVisualStyleBackColor = false;
@@ -199,7 +199,7 @@
             this.lblFind.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblFind.Location = new System.Drawing.Point(583, 15);
             this.lblFind.Name = "lblFind";
-            this.lblFind.Size = new System.Drawing.Size(71, 40);
+            this.lblFind.Size = new System.Drawing.Size(48, 25);
             this.lblFind.TabIndex = 3;
             this.lblFind.Text = "Find";
             // 
@@ -211,7 +211,7 @@
             this.txtFind.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.txtFind.Location = new System.Drawing.Point(633, 15);
             this.txtFind.Name = "txtFind";
-            this.txtFind.Size = new System.Drawing.Size(231, 38);
+            this.txtFind.Size = new System.Drawing.Size(231, 26);
             this.txtFind.TabIndex = 4;
             this.txtFind.WordWrap = false;
             this.txtFind.TextChanged += new System.EventHandler(this.txtFind_TextChanged);
@@ -227,7 +227,7 @@
             this.chkFilter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.chkFilter.Location = new System.Drawing.Point(869, 11);
             this.chkFilter.Name = "chkFilter";
-            this.chkFilter.Size = new System.Drawing.Size(98, 50);
+            this.chkFilter.Size = new System.Drawing.Size(69, 35);
             this.chkFilter.TabIndex = 2;
             this.chkFilter.Text = "Filter!";
             this.chkFilter.UseVisualStyleBackColor = false;
@@ -235,7 +235,7 @@
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1122, 832);
